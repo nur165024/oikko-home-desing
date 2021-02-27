@@ -9,3 +9,6 @@
     background: #113745;
     color: #ffffff;
 }
+#carouselExampleIndicators img{
+    height: 300px;
+}
