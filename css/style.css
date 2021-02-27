@@ -6,6 +6,10 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+p{
+    padding: 0;
+    margin: 0;
+}
 h2{
     font-size: 35px;
     font-weight: 700;
@@ -25,6 +29,45 @@ h2{
 #carouselExampleIndicators img{
     height: 300px;
 }
+/* banner 3 */
+#banner3{
+    padding: 40px 0;
+}
+.banner3Content img{
+    width: 100%;
+    height: 200px;
+}
+/* banner 3 */
+/* flash sale */
+.productContent{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
+    box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
+}
+.productContent a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .2s ease-in all;
+}
+.productContent a h6{
+    margin-top: 15px;
+}
+.productContent img{
+    transition: .2s ease-in all;
+}
+.productContent a:hover{
+    color: #007bff;
+}
+.productContent img:hover{
+    overflow: hidden;
+    transform: translate(10px,10px);
+}
+/* flash sale */
 /* category part */
 #categoryPart{
     padding: 40px 0;
