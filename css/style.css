@@ -18,6 +18,10 @@ h2{
     background: #113745;
     color: #ffffff;
 }
+#topHeader p{
+    font-size: 12px;
+    font-weight: 400;
+}
 #carouselExampleIndicators img{
     height: 300px;
 }
@@ -32,8 +36,12 @@ h2{
     float: left;
     display: inline-block;
 }
-.categoryContent{
+.col8 a{
+    color: #000000;
+}
+.CBcontent{
     position: absolute;
+    width: 86.9%;
     height: 90%;
     padding: 15px;
     margin: 10px;
@@ -42,4 +50,11 @@ h2{
     -webkit-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
     -moz-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
     box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
+}
+.CBcontent .btn-outline-primary{
+    margin-top: 50px;
+}
+/*  */
+#entrepreneurs{
+    padding: 40px 0;
 }
