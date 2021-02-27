@@ -29,6 +29,19 @@ h2{
 #carouselExampleIndicators img{
     height: 300px;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #113745;
+    border-color: #113745;
+}
+.btn-primary:hover {
+    color: #113745;
+    background-color: transparent;
+    border-color: #113745;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
 /* banner 3 */
 #banner3{
     padding: 40px 0;
@@ -114,3 +127,12 @@ h2{
     padding: 40px 0;
 }
 /* latest products */
+/* newsletter */
+#newsLetter{
+    padding: 40px 0;
+}
+.newsletterForm .form-control:focus {
+    box-shadow: none !important;
+    border-color: #113745;
+}
+/* newsletter */
