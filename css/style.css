@@ -131,8 +131,117 @@ h2{
 #newsLetter{
     padding: 40px 0;
 }
+#newsLetter .container{
+    background: #113745;
+    color: #fff;
+    border-radius: 10px;
+    padding: 60px 20px;
+    -webkit-box-shadow: -2px -1px 28px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: -2px -1px 28px 0px rgba(0,0,0,0.1);
+    box-shadow: -2px -1px 28px 0px rgba(0,0,0,0.1);
+}
+.newsletterForm {
+    margin-top: 15px;
+}
 .newsletterForm .form-control:focus {
     box-shadow: none !important;
     border-color: #113745;
 }
+.newsletterForm .btn-primary {
+    color: #113745;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-left: 2px solid #113745;
+}
+.newsletterForm .btn-primary:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+}
 /* newsletter */
+/* footer section */
+#footerSection{
+    padding-top: 40px;
+    background-color: #113745;
+    color: #ffffff;
+}
+#footerSection p{
+    margin: 10px 0;
+}
+#footerSection ul li{
+    list-style-type: none;
+}
+#footerSection ul li i{
+    font-size: 23px;
+    color: #ffffff;
+}
+#footerSection ul li .fa-map-marker,.fa-mobile{
+    margin-left: 5px;
+}
+#footerSection ul li .footer_data{
+    font-size: 14px;
+    margin-left: 25px;
+}
+#footerSection ul li .footer_data1{
+    font-size: 14px;
+    margin-left: 16px;
+}
+.footerLink h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.footerLink ul li a{
+    font-size: 15px;
+    color: #ffffff;
+}
+.someIcon h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.someIcon ul li{
+    float: left;
+    margin: 0 5px;
+}
+.someIcon ul li a{
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: .2s;
+}
+.someIcon ul li a i{
+    font-size: 23px !important;
+    position: relative;
+    top: 3px;
+    transition: .3s;
+}
+.someIcon ul li .youtube:hover{
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+}
+.someIcon ul li .facebook:hover{
+    background-color: #3B5998;
+    border: 1px solid #3B5998;
+}
+.someIcon ul li .twitter:hover{
+    background-color: #33ccff;
+    border: 1px solid #33ccff;
+}
+.someIcon ul li .instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border: 1px solid #113745;
+}
+.someIcon ul li .linkedin:hover{
+    background-color: #007bb7;
+    border: 1px solid #007bb7;
+}
+.someIcon ul li a:hover i{
+    transform: rotate(360deg)
+}
+.downloadApp h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+/* footer section */
