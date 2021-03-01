@@ -48,6 +48,7 @@ h2{
     border-color: #113745;
 }
 .btn-outline-primary{
+    color: #113745;
     border-color: #113745;
 }
 .btn-outline-primary:hover {
@@ -118,7 +119,7 @@ h2{
     color: #000000;
 }
 .CBcontent{
-    position: absolute;
+    position: relative;
     width: 86.9%;
     height: 90%;
     padding: 15px;
@@ -345,3 +346,24 @@ h2{
     box-shadow: none !important;
 }
 /* -------------------------------------------   flash sale page ------------------------------------------------ */
+/* -------------------------------------------   category ------------------------------------------------ */
+#category{
+    padding: 40px 0 100px 0;
+}
+#entrepreneurs{
+    padding: 40px 0 100px 0;
+}
+.itemList a{
+    color: #000000;
+}
+.searchby .form-control{
+    border-color: #113745;
+}
+.searchby .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #113745;
+    outline: 0;
+    box-shadow: none;
+}
+/* -------------------------------------------   category ------------------------------------------------ */
