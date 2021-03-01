@@ -82,11 +82,6 @@ h2{
     -moz-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
     box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
 }
-.productContent:hover{
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
 .productContent a{
     text-decoration: none;
     color: #000000;
@@ -104,36 +99,6 @@ h2{
     color: #007bff;
 }
 .productContent img:hover{
-    overflow: hidden;
-    transform: translate(10px,10px);
-}
-/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
-.productContent1{
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
-    transition: .2s ease-in;
-    -webkit-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
-    -moz-box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
-    box-shadow: 3px 20px 24px 6px rgba(0,0,0,0.1);
-}
-.productContent1 a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 700;
-    transition: .2s ease-in all;
-}
-.productContent1 a h6{
-    margin-top: 15px;
-}
-.productContent1 img{
-    transition: .2s ease-in all;
-}
-.productContent1 a:hover{
-    color: #007bff;
-}
-.productContent1 img:hover{
     overflow: hidden;
     transform: translate(10px,10px);
 }
