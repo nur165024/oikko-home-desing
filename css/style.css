@@ -319,3 +319,29 @@ h2{
     color: #ffffff;
 }
 /* footer bottom */
+/* -------------------------------------------   flash sale page  ------------------------------------------------ */
+#flashSalePage{
+    padding: 40px 0 100px 0;
+}
+.flashSaleHeader{
+    padding: 10px 0;
+    border-bottom: 1px solid #dddddd;
+}
+.pagination{
+    margin-top: 30px;
+    position: absolute;
+    right: 25px;
+}
+.page-link{
+    color: #113745;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #113745;
+    border-color: #113745;
+}
+.page-link:focus{
+    box-shadow: none !important;
+}
+/* -------------------------------------------   flash sale page ------------------------------------------------ */
