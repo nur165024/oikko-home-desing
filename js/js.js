@@ -18,10 +18,15 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="demo"
   document.getElementById("timeCount").innerHTML = days + "d : " + hours + "h : "+ minutes + "m : " + seconds + "s ";
+  document.getElementById("timeCountsm").innerHTML = days + "d : " + hours + "h : "+ minutes + "m : " + seconds + "s ";
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timeCount").innerHTML = "EXPIRED";
+  }
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timeCountsm").innerHTML = "EXPIRED";
   }
 }, 1000);

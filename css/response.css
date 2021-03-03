@@ -1,0 +1,76 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #topHeader{
+        display: none;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #topHeader{
+        display: none;
+    }
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #topHeader{
+        display: none;
+    }
+    #carouselExampleIndicators img {
+        height: 120px;
+    }
+    .banner3Content img {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+    #flashSale #timeCount {
+        font-size: 18px;
+    }
+    #flashSale img {
+        
+    }
+    .col8{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3%;
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+    #categoryPart .img-fluid {
+        max-width: 100%;
+        height: 120px;
+    }
+    #entrepreneurs .img-fluid {
+        max-width: 100%;
+        height: 120px;
+    }
+}
+@media (max-width: 400px) { 
+    .col-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col8{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    #categoryPart .img-fluid {
+        max-width: 100%;
+        height: 100px;
+    }
+    #entrepreneurs .img-fluid {
+        max-width: 100%;
+        height: 100px;
+    }
+}
